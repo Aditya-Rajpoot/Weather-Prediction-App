@@ -1,16 +1,32 @@
-# React + Vite
+🌤️ Weather Prediction App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive weather app built with React that shows real-time weather conditions for any city in the world. The UI dynamically shifts its background gradient and icons based on live weather conditions — sunny, rainy, snowy, cloudy, and more.
 
-Currently, two official plugins are available:
+🔗 Live Demo: weather-prediction-app-psi.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+✨ Features
+🔍 City Search — Get instant weather updates for any city worldwide
+🌡️ Live Weather Data — Temperature, feels-like, humidity, min/max temp
+🎨 Dynamic UI — Background gradient and icons change automatically based on current weather (clear, rain, snow, thunderstorm, mist, clouds, etc.)
+📱 Responsive Design — Clean glassmorphism-style card UI that works across devices
+⚠️ Error Handling — Friendly message when an invalid city is searched
 
-## React Compiler
+🛠️ Tech Stack
+React 19 (with Vite)
+Material UI (MUI) — components & icons
+Emotion — styling
+OpenWeatherMap API — live weather data
+📸 Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Search any city and instantly see its current weather with a matching dynamic background.
 
-## Expanding the ESLint configuration
+Environment Variables
+Create a .env file in the root directory and add your OpenWeatherMap API credentials:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+env
+VITE_API_URL=https://api.openweathermap.org/data/2.5/weather?
+VITE_API_KEY=your_openweathermap_api_key
+
+🌐 Deployment
+
+This project is deployed on Vercel: 🔗 https://weather-prediction-app-psi.vercel.app/
