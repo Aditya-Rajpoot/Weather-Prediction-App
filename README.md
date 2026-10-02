@@ -2,7 +2,7 @@
 
 A sleek, responsive weather app built with React that shows real-time weather conditions for any city in the world. The UI dynamically shifts its background gradient and icons based on live weather conditions — sunny, rainy, snowy, cloudy, and more.
 
-🔗 Live Demo: weather-prediction-app-psi.vercel.app
+🔗 Live Demo:https://weather-prediction-app-psi.vercel.app/
 
 ✨ Features
 🔍 City Search — Get instant weather updates for any city worldwide
